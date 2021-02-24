@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<style>
+  *{
+    margin:0px;
+    padding:0px;
+  }
+input[type=text],select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+input[type=date]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #fe0360;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:600px;
+  margin-top:44px;
+}
+.a{
+  background: #02b4fa;
+ 
+  text-align:left;
+  color:#fff;
+  margin-top:-20px;
+
+}
+</style>
+<body>
+
+
+
+<center>
+<div class="container">
+  <h1 class="a">Basic details</h1>
+  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="date">Date of birth</label>
+    <input type="date" name="date" id="date" placeholder="your birth date">
+
+    <label for="father's name">Father's name</label>
+    <input type="text" id="father's name" name="father's name" placeholder="your father's name">
+
+    <label for="mother's name">Mother's name</label>
+    <input type="text" id="mother's name" name="mother's name" placeholder="your mother's name">
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="madhya">Madhya Pradesh</option>
+      <option value="chatisgarh">Chatisharh</option>
+      <option value="punjab">Punjab</option>
+    </select>
+
+    <label for="adhar number">Adhar Number</label>
+    <input type="text" id="adhar number" name="adhar number" placeholder="enter your adhar number">
+
+
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</center>
+
+
+
+</body>
+</html>
